@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <h1>Execute commands here</h1>
+        <form action="http://127.0.0.1:5000/{{name}}/execute" method="POST">
+            <p>Enter your command here </p>
+            <input type="text" name="command">
+            <input type="submit">
+        </form>
+        
+        <pre>{{ cmdoutput }}</pre>
+    </body>
+</html>
